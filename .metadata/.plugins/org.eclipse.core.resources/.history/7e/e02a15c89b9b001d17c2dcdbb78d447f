@@ -1,0 +1,27 @@
+package utility;
+
+import java.io.File;
+
+import org.apache.poi.sl.usermodel.Sheet;
+
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+
+public class Utility {
+
+	public static void main(String[] args) {
+	  //excel
+      //wait
+	 //screenshot
+	//scrollIntoView
+		String readDataFromEXcell(int row ,int cell) 
+		{
+			File myfile=new File("D:\\Tushar\\selenium-java-4.6.0\\selinium_sheet.xlsx");
+			  Sheet mySheet = WorkbookFactory.create(myfile).getSheet("sheet5");
+			  String value=mySheet.
+			return value;
+		}
+		
+	
+	}
+
+}
