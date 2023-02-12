@@ -23,6 +23,8 @@ public class Multiscreenshot {
 		String  random=RandomString.make(5);
 		File destination=new File("C:\\Screenshot\\besting"+random+".png");
 		FileHandler.copy(source, destination);
+		
+		
 	}
 
 }
